@@ -14,5 +14,6 @@ public class SessionEJBBean implements SessionEJB, SessionEJBLocal {
     SessionContext sessionContext;
 
     public SessionEJBBean() {
+        System.out.println("hello");
     }
 }
